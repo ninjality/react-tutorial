@@ -1,0 +1,25 @@
+{
+  "name": "react-tutorial",
+  "version": "1.0.0",
+  "description": "Code for our \"Let's Learn React Together\" tutorial series.",
+  "main": "index.js",
+  "scripts": {
+    "enclave-serve": "enclave",
+    "enclave-build": "node node_modules/enclave/src/build.js",
+    "enclave-eject": "node node_modules/enclave/src/eject/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninjality/react-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninjality/react-tutorial/issues"
+  },
+  "homepage": "https://github.com/ninjality/react-tutorial#readme",
+  "dependencies": {
+    "enclave": "^0.9.3"
+  }
+}
