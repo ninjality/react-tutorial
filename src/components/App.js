@@ -8,6 +8,16 @@ var App = React.createClass({
         return (
             <div>
                 <h1>Hello!</h1>
+                {/* Let's add some props to Button: */}
+                <Button
+                    initialText="Tap Here"
+                    clickedText="Tapped!"
+                    style={{
+                        color: 'blue',
+                    }}
+                />
+
+                {/* This is a default Button: */}
                 <Button />
             </div>
         )
