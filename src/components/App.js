@@ -1,5 +1,6 @@
 var React = require('react');
 var Button = require('./Button');
+var IPAddress = require('./IPAddress');
 
 var App = React.createClass({
 
@@ -19,6 +20,11 @@ var App = React.createClass({
 
                 {/* This is a default Button: */}
                 <Button />
+
+                <br /><br />
+
+                {/* This fetches user's IP and displays it: */}
+                <IPAddress />
             </div>
         )
 
